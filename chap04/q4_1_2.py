@@ -4,6 +4,6 @@ def fib2(n):
     while a < n:
         result.append(a)
         a, b = b, a+b
-        return result
-fib2(1000)
-print()
+    return result
+print(fib2(1000))
+
